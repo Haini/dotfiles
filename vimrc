@@ -25,6 +25,8 @@ syntax enable
 
 colorscheme desert
 set background=dark
+set number
+
 
 set encoding=utf8
 set ffs=unix,dos,mac
