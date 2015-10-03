@@ -28,7 +28,7 @@ set mat=2
 syntax enable
 
 colorscheme solarized
-highlight Normal ctermbg=white ctermfg=White
+" highlight Normal ctermbg=white ctermfg=White
 set number
 
 
