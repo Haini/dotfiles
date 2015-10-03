@@ -1,3 +1,7 @@
+call togglebg#map("<F5>")
+
+set t_Co=256
+
 " Number of lines that vim will remember
 set history=700
 
@@ -23,8 +27,8 @@ set mat=2
 " Enabel syntax highlightning
 syntax enable
 
-colorscheme desert
-set background=dark
+colorscheme solarized
+highlight Normal ctermbg=white ctermfg=White
 set number
 
 
