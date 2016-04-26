@@ -1,6 +1,17 @@
 call togglebg#map("<F5>")
 
+set makeprg=make 
+set wildmenu
+map <silent><F9> :silent make<bar>:redraw!<bar>:copen<CR>
+"imap <F9> <ESC>:w<CR>:make<CR> 
+map <silent><F8> :silent make install<bar>:redraw!<CR>
+
+" Set 80 chars column count
+set cc=80
+
 set t_Co=256
+
+set tags=tags;
 
 " Number of lines that vim will remember
 set history=700
@@ -26,8 +37,14 @@ set mat=2
 
 " Enabel syntax highlightning
 syntax enable
-
 colorscheme solarized
+
+"if &display != ":0" 
+"    colorscheme slate
+"else
+"    colorscheme solarized
+"endif
+
 " highlight Normal ctermbg=white ctermfg=White
 set number
 
